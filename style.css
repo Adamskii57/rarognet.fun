@@ -18,7 +18,7 @@ body{
 }
 
 .back-vid{
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: -1;
@@ -140,6 +140,7 @@ nav a:hover ,
   margin-right: 15px;
   transition: 0.3s;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 
 .btn:hover{
